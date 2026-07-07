@@ -31,7 +31,7 @@
 | Item | Why it matters |
 |------|---------------|
 | **1. Replace Cal.com placeholder URL** with actual Cal.com account link | Booking won't work until the real Cal.com link is configured |
-| **2. Create a real CV PDF** at `/cv-nicolas-sanitas.pdf` | Download button currently has no file to serve |
+| **2. Create a real CV PDF** at `/cv-sheela-gowda.pdf` | Download button currently has no file to serve |
 | **3. Add real client testimonials** — replace placeholder quote with actual feedback | Social proof is critical for consulting trust |
 | **4. Review and finalize copy** — proofread all sections | Professional polish |
 | **5. Add favicon** — replace the SVG emoji with a real icon | Browser tab branding |
@@ -60,7 +60,7 @@
 | **Tally or similar contact form** — for prospects who prefer email over booking | Lightweight embed, same as Why Lab approach |
 | **Analytics** — privacy-focused (Plausible or Umami) | Understand which sections drive bookings |
 | **PDF auto-generation** — for CV or service brochures | Possibly client-side using a library |
-| **Blog / articles section** — thought leadership content | Positions Nicolas as an authority |
+| **Blog / articles section** — thought leadership content | Positions you as an authority |
 
 ---
 
@@ -71,7 +71,7 @@
 | Item | Notes |
 |------|-------|
 | Evaluate static HTML vs. framework (TanStack Start or Astro) | Needed if more than ~5 pages or if CMS integration required |
-| Headless CMS integration (Sanity or Strapi) | If Nicolas wants non-technical content editing |
+| Headless CMS integration (Sanity or Strapi) | If you want non-technical content editing |
 | Server-side PDF generation | For dynamic CV or brochure generation |
 
 ---

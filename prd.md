@@ -8,7 +8,7 @@ The design is adapted from the CareerCraft resume builder template, which provid
 
 ## 2. The Problem
 
-Nicolas has a deployed TanStack Start site (`nicolas-resume.vercel.app`) but needs:
+The previous site was a TanStack Start app (`nicolas-resume.vercel.app`) but needed:
 - A more polished, modern design that better reflects his consulting brand
 - A clear booking flow for prospects to schedule consultations
 - A multilingual front (French, English, German) that works without touching code
