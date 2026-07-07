@@ -1,8 +1,8 @@
-# PRD.md — Nicolas Sanitas: Personal Consulting Site
+# PRD.md — Sheela Gowda: Personal Consulting Site
 
 ## 1. What This Is
 
-A personal/professional website for **Nicolas Sanitas**, an AI & Digital Transformation Consultant based in Luxembourg. The site presents his services, career history, expertise, and enables direct booking of consultations via Cal.com.
+A personal/professional website for **Sheela Gowda**, an AI & Digital Transformation Consultant based in Luxembourg. The site presents his services, career history, expertise, and enables direct booking of consultations via Cal.com.
 
 The design is adapted from the CareerCraft resume builder template, which provides a modern, professional visual identity with Tailwind CSS and a clean component library.
 
