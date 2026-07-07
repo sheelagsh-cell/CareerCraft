@@ -1,0 +1,636 @@
+<!DOCTYPE html>
+<html class="scroll-smooth" lang="en">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Nicolas Sanitas | AI & Digital Transformation Consultant</title>
+<meta name="description" content="Independent AI & Digital Transformation Consultant. Digital transformation, training, and straight talk about AI."/>
+<meta name="author" content="Nicolas Sanitas"/>
+<meta property="og:title" content="Nicolas Sanitas | AI & Digital Transformation Consultant"/>
+<meta property="og:description" content="Digital transformation, training, and straight talk about AI."/>
+<meta property="og:type" content="website"/>
+<meta property="og:url" content="https://careercraft-nicolas.vercel.app/"/>
+<meta name="twitter:card" content="summary_large_image"/>
+<link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>✦</text></svg>" type="image/svg+xml"/>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<link href="https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@400;500;600;700;800&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&display=swap" rel="stylesheet"/>
+<script id="tailwind-config">
+    tailwind.config = {
+      darkMode: "class",
+      theme: {
+        extend: {
+          "colors": {
+            "on-error": "#ffffff",
+            "surface": "#f9f9ff",
+            "slate-gray": "#5E6C84",
+            "inverse-surface": "#2b313c",
+            "surface-container-lowest": "#ffffff",
+            "on-secondary-container": "#5c6372",
+            "primary-fixed": "#d2e4ff",
+            "on-primary-container": "#fdfcff",
+            "dark-bg": "#0B111B",
+            "surface-container-high": "#e3e8f7",
+            "on-primary": "#ffffff",
+            "on-background": "#161c26",
+            "primary-fixed-dim": "#a0caff",
+            "background": "#f9f9ff",
+            "secondary-fixed-dim": "#c0c6d8",
+            "surface-dim": "#d5dae9",
+            "error-container": "#ffdad6",
+            "tertiary-fixed": "#e0e3e7",
+            "on-secondary-fixed": "#151c28",
+            "surface-bright": "#f9f9ff",
+            "tertiary-container": "#717579",
+            "tertiary-fixed-dim": "#c3c7cb",
+            "on-error-container": "#93000a",
+            "on-surface-variant": "#404752",
+            "error": "#ba1a1a",
+            "secondary-container": "#d9e0f1",
+            "inverse-primary": "#a0caff",
+            "on-primary-fixed": "#001c37",
+            "surface-tint": "#0061a5",
+            "surface-container-low": "#f0f3ff",
+            "surface-light": "#FFFFFF",
+            "surface-container-highest": "#dde2f1",
+            "on-tertiary": "#ffffff",
+            "dark-surface": "#1E2532",
+            "on-secondary-fixed-variant": "#404755",
+            "outline-variant": "#bfc7d4",
+            "inverse-on-surface": "#ecf1ff",
+            "primary-container": "#0078ca",
+            "on-tertiary-fixed": "#181c1f",
+            "on-tertiary-fixed-variant": "#43474b",
+            "on-tertiary-container": "#fdfcff",
+            "on-surface": "#161c26",
+            "surface-container": "#e9eefd",
+            "secondary-fixed": "#dce2f4",
+            "on-primary-fixed-variant": "#00497e",
+            "primary": "#005ea1",
+            "outline": "#707884",
+            "secondary": "#575e6d",
+            "tertiary": "#585c60",
+            "surface-variant": "#dde2f1",
+            "on-secondary": "#ffffff"
+          },
+          "borderRadius": {
+            "DEFAULT": "0.25rem",
+            "lg": "0.5rem",
+            "xl": "0.75rem",
+            "full": "9999px"
+          },
+          "spacing": {
+            "base": "4px",
+            "container-max": "1280px",
+            "margin-mobile": "16px",
+            "margin-desktop": "48px",
+            "gutter": "24px"
+          },
+          "fontFamily": {
+            "body-lg": ["Inter"],
+            "display-lg": ["Hanken Grotesk"],
+            "display-lg-mobile": ["Hanken Grotesk"],
+            "label-sm": ["Inter"],
+            "headline-lg": ["Hanken Grotesk"],
+            "headline-md": ["Hanken Grotesk"],
+            "body-md": ["Inter"],
+            "label-md": ["Inter"]
+          },
+          "fontSize": {
+            "body-lg": ["18px", {"lineHeight": "28px", "fontWeight": "400"}],
+            "display-lg": ["48px", {"lineHeight": "56px", "letterSpacing": "-0.02em", "fontWeight": "700"}],
+            "display-lg-mobile": ["36px", {"lineHeight": "44px", "letterSpacing": "-0.02em", "fontWeight": "700"}],
+            "label-sm": ["12px", {"lineHeight": "16px", "fontWeight": "500"}],
+            "headline-lg": ["32px", {"lineHeight": "40px", "letterSpacing": "-0.01em", "fontWeight": "600"}],
+            "headline-md": ["24px", {"lineHeight": "32px", "fontWeight": "600"}],
+            "body-md": ["16px", {"lineHeight": "24px", "fontWeight": "400"}],
+            "label-md": ["14px", {"lineHeight": "20px", "letterSpacing": "0.01em", "fontWeight": "600"}]
+          }
+        },
+      },
+    }
+  </script>
+<style>
+    .material-symbols-outlined {
+        font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24;
+    }
+    .hero-gradient {
+        background: radial-gradient(circle at top right, rgba(0, 94, 161, 0.05), transparent 40%),
+                    radial-gradient(circle at bottom left, rgba(0, 119, 230, 0.05), transparent 40%);
+    }
+    .glass-card {
+        background: rgba(255, 255, 255, 0.7);
+        backdrop-filter: blur(12px);
+        border: 1px solid rgba(255, 255, 255, 0.3);
+    }
+    body { min-height: max(884px, 100dvh); }
+</style>
+</head>
+<body class="bg-surface font-body-md text-on-surface selection:bg-primary-fixed selection:text-on-primary-fixed overflow-x-hidden">
+
+<!-- TopAppBar -->
+<header class="sticky top-0 w-full z-50 bg-surface-light shadow-sm">
+  <div class="flex items-center justify-between px-margin-mobile md:px-margin-desktop h-16 w-full max-w-container-max mx-auto">
+    <div class="flex items-center gap-3">
+      <span class="font-display-lg-mobile text-primary tracking-tight md:text-headline-md italic">ns.</span>
+    </div>
+    <nav class="hidden md:flex items-center space-x-8">
+      <a class="text-slate-gray font-medium hover:text-primary transition-all duration-200" href="#services">Services</a>
+      <a class="text-slate-gray font-medium hover:text-primary transition-all duration-200" href="#career">Career</a>
+      <a class="text-slate-gray font-medium hover:text-primary transition-all duration-200" href="#approach">Approach</a>
+      <div class="flex items-center gap-1 border-l border-outline-variant/30 pl-4">
+        <button class="border px-2.5 py-1 font-sans text-xs uppercase tracking-[0.15em] transition-colors border-primary/30 text-primary/70 hover:bg-primary hover:text-white rounded" aria-label="Switch to French">fr</button>
+        <button class="border px-2.5 py-1 font-sans text-xs uppercase tracking-[0.15em] transition-colors border-primary bg-primary text-white rounded" aria-label="Switch to English">en</button>
+        <button class="border px-2.5 py-1 font-sans text-xs uppercase tracking-[0.15em] transition-colors border-primary/30 text-primary/70 hover:bg-primary hover:text-white rounded" aria-label="Switch to German">de</button>
+      </div>
+      <a class="bg-primary text-on-primary px-6 py-2.5 rounded-full font-label-md active:scale-95 transform transition-transform hover:shadow-lg" href="#booking">Book Consultation</a>
+    </nav>
+    <button id="mobile-menu-btn" class="md:hidden p-2 active:scale-95 transition-transform">
+      <span class="material-symbols-outlined text-on-surface">menu</span>
+    </button>
+  </div>
+  <!-- Mobile menu -->
+  <div id="mobile-menu" class="md:hidden hidden px-margin-mobile pb-6 pt-2 bg-surface-light border-t border-outline-variant/10 flex flex-col gap-3">
+    <a class="text-slate-gray font-medium py-2" href="#services">Services</a>
+    <a class="text-slate-gray font-medium py-2" href="#career">Career</a>
+    <a class="text-slate-gray font-medium py-2" href="#approach">Approach</a>
+    <div class="flex items-center gap-2 py-2 border-t border-outline-variant/10 pt-4">
+      <button class="border px-3 py-1.5 font-sans text-xs uppercase tracking-[0.15em] transition-colors border-primary/30 text-primary/70 hover:bg-primary hover:text-white rounded">fr</button>
+      <button class="border px-3 py-1.5 font-sans text-xs uppercase tracking-[0.15em] transition-colors border-primary bg-primary text-white rounded">en</button>
+      <button class="border px-3 py-1.5 font-sans text-xs uppercase tracking-[0.15em] transition-colors border-primary/30 text-primary/70 hover:bg-primary hover:text-white rounded">de</button>
+    </div>
+    <a class="bg-primary text-on-primary px-6 py-3 rounded-full font-label-md text-center" href="#booking">Book Consultation</a>
+  </div>
+</header>
+
+<main>
+
+<!-- Hero Section -->
+<section class="relative pt-16 pb-24 md:pt-28 md:pb-36 overflow-hidden hero-gradient">
+  <div class="px-margin-mobile md:px-margin-desktop max-w-container-max mx-auto grid grid-cols-1 lg:grid-cols-12 gap-gutter items-center">
+    <div class="lg:col-span-7 space-y-8 text-center lg:text-left">
+      <div class="inline-flex items-center gap-2 px-4 py-2 bg-primary-fixed text-on-primary-fixed rounded-full">
+        <span class="material-symbols-outlined text-sm" style="font-variation-settings: 'FILL' 1;">auto_awesome</span>
+        <span class="font-label-sm uppercase tracking-wider">AI & Digital Transformation Consultant</span>
+      </div>
+      <h1 class="font-display-lg-mobile md:font-display-lg text-on-background leading-tight">
+        Nicolas <span class="text-primary italic">Sanitas</span>
+      </h1>
+      <p class="font-body-lg text-slate-gray max-w-2xl mx-auto lg:mx-0 italic">
+        Digital transformation, training, and straight talk about AI.
+      </p>
+      <p class="font-body-md text-slate-gray max-w-xl mx-auto lg:mx-0">
+        Twenty years turning complex technology into decisions organizations can actually make.
+      </p>
+      <div class="flex flex-col sm:flex-row items-center gap-4 justify-center lg:justify-start pt-4">
+        <a href="#booking" class="w-full sm:w-auto bg-primary text-on-primary px-10 py-4 rounded-full font-headline-md flex items-center justify-center gap-2 shadow-xl hover:shadow-primary/20 hover:-translate-y-1 transition-all active:scale-95">
+          Book Consultation
+          <span class="material-symbols-outlined">arrow_forward</span>
+        </a>
+        <a href="/cv-nicolas-sanitas.pdf" class="w-full sm:w-auto border-2 border-outline-variant text-on-surface-variant px-10 py-4 rounded-full font-headline-md hover:bg-surface-container-low transition-all">
+          Download CV
+        </a>
+      </div>
+      <div class="flex items-center gap-4 justify-center lg:justify-start pt-6">
+        <a href="https://www.linkedin.com/in/nicolassanitas/" target="_blank" rel="noopener noreferrer" class="flex items-center gap-2 text-slate-gray hover:text-primary transition-colors">
+          <span class="material-symbols-outlined">linked_services</span>
+          <span class="font-label-sm">LinkedIn</span>
+        </a>
+        <a href="https://wa.me/33687388992" target="_blank" rel="noopener noreferrer" class="flex items-center gap-2 text-slate-gray hover:text-primary transition-colors">
+          <span class="material-symbols-outlined">chat</span>
+          <span class="font-label-sm">WhatsApp</span>
+        </a>
+      </div>
+    </div>
+    <div class="lg:col-span-5 relative mt-12 lg:mt-0">
+      <div class="relative z-10 p-6 bg-surface-light rounded-[32px] shadow-2xl hover:rotate-0 transition-transform duration-500">
+        <div class="aspect-[3/4] w-full bg-surface-container-lowest rounded-2xl overflow-hidden shadow-inner flex items-center justify-center bg-gradient-to-br from-primary-fixed to-surface-container-high">
+          <div class="text-center p-8">
+            <span class="font-display-lg text-primary text-8xl italic">ns.</span>
+            <p class="mt-4 font-headline-md text-on-surface-variant">20+ years • 3 languages</p>
+            <p class="mt-2 text-slate-gray text-sm">Strategic advisory • AI literacy<br/>Digital transformation • Training design</p>
+          </div>
+        </div>
+      </div>
+      <div class="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[120%] h-[120%] bg-primary/5 rounded-full blur-3xl -z-10"></div>
+    </div>
+  </div>
+</section>
+
+<!-- Key Metrics Strip -->
+<section class="py-12 bg-surface-container-low/50 border-y border-outline-variant/10">
+  <div class="px-margin-mobile md:px-margin-desktop max-w-container-max mx-auto">
+    <div class="grid grid-cols-2 md:grid-cols-4 gap-8 text-center">
+      <div>
+        <p class="font-display-lg text-primary">20+</p>
+        <p class="font-label-sm text-slate-gray uppercase tracking-wider">Years Experience</p>
+      </div>
+      <div>
+        <p class="font-display-lg text-primary">50+</p>
+        <p class="font-label-sm text-slate-gray uppercase tracking-wider">Organizations Advised</p>
+      </div>
+      <div>
+        <p class="font-display-lg text-primary">3</p>
+        <p class="font-label-sm text-slate-gray uppercase tracking-wider">Languages</p>
+      </div>
+      <div>
+        <p class="font-display-lg text-primary">2</p>
+        <p class="font-label-sm text-slate-gray uppercase tracking-wider">Decades Shipping</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Services/Expertise Section -->
+<section class="py-24" id="services">
+  <div class="px-margin-mobile md:px-margin-desktop max-w-container-max mx-auto">
+    <div class="text-center mb-16 space-y-4">
+      <span class="text-primary font-bold tracking-widest uppercase text-xs">What I Do</span>
+      <h2 class="font-headline-lg text-on-background">Services & Expertise</h2>
+      <p class="text-slate-gray max-w-xl mx-auto">Helping leaders move past AI hype to make concrete, operational decisions.</p>
+    </div>
+    <div class="grid grid-cols-1 md:grid-cols-3 gap-gutter">
+      <div class="bg-surface-light p-10 rounded-[24px] shadow-sm hover:shadow-xl transition-shadow group">
+        <div class="w-14 h-14 bg-primary-fixed rounded-2xl flex items-center justify-center mb-8 group-hover:scale-110 transition-transform">
+          <span class="material-symbols-outlined text-primary text-3xl">psychology</span>
+        </div>
+        <h3 class="font-headline-md mb-4">AI Advisory</h3>
+        <p class="text-slate-gray leading-relaxed">
+          Executive advisory for AI adoption, digital strategy, and organizational change — beyond the hype, inside the operations.
+        </p>
+      </div>
+      <div class="bg-surface-light p-10 rounded-[24px] shadow-sm hover:shadow-xl transition-shadow group">
+        <div class="w-14 h-14 bg-surface-container-high rounded-2xl flex items-center justify-center mb-8 group-hover:scale-110 transition-transform">
+          <span class="material-symbols-outlined text-secondary text-3xl">school</span>
+        </div>
+        <h3 class="font-headline-md mb-4">Training Programs</h3>
+        <p class="text-slate-gray leading-relaxed">
+          Custom training designed to build genuine internal capability — moving teams from curiosity to competence.
+        </p>
+      </div>
+      <div class="bg-surface-light p-10 rounded-[24px] shadow-sm hover:shadow-xl transition-shadow group">
+        <div class="w-14 h-14 bg-tertiary-fixed rounded-2xl flex items-center justify-center mb-8 group-hover:scale-110 transition-transform">
+          <span class="material-symbols-outlined text-tertiary text-3xl">transform</span>
+        </div>
+        <h3 class="font-headline-md mb-4">Digital Transformation</h3>
+        <p class="text-slate-gray leading-relaxed">
+          Grounded in twenty years of practical technical and business leadership — turning possibility into decisions.
+        </p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Career Timeline -->
+<section class="py-24 bg-surface-container-low/30" id="career">
+  <div class="px-margin-mobile md:px-margin-desktop max-w-container-max mx-auto">
+    <div class="text-center mb-16 space-y-4">
+      <span class="text-primary font-bold tracking-widest uppercase text-xs">Experience</span>
+      <h2 class="font-headline-lg text-on-background">Career Chapters</h2>
+      <p class="text-slate-gray max-w-xl mx-auto">Two decades across the stack — from writing code to shaping how organizations think about what's next.</p>
+    </div>
+    <div class="max-w-4xl mx-auto space-y-px">
+      <!-- Exalti -->
+      <div class="bg-surface-light rounded-[24px] p-8 md:p-10 shadow-sm hover:shadow-md transition-shadow border-l-4 border-primary">
+        <div class="flex flex-col md:flex-row md:items-baseline md:justify-between gap-2 mb-4">
+          <div>
+            <span class="font-sans text-xs tabular-nums tracking-wider text-primary font-bold">2024 — Present</span>
+            <h3 class="font-headline-md mt-1">Exalti</h3>
+            <p class="text-slate-gray">Founder & Consultant</p>
+          </div>
+        </div>
+        <p class="font-body-md italic text-on-surface-variant mb-4">Independent practice helping leaders make sense of AI — beyond the hype, inside the operations.</p>
+        <ul class="space-y-2">
+          <li class="flex gap-3 text-slate-gray"><span class="mt-[0.5em] block h-px w-3 shrink-0 bg-primary/40"></span>Advisory for executives navigating AI adoption, digital strategy, and organizational change.</li>
+          <li class="flex gap-3 text-slate-gray"><span class="mt-[0.5em] block h-px w-3 shrink-0 bg-primary/40"></span>Hands-on training programs for teams that need to move from curiosity to capability.</li>
+          <li class="flex gap-3 text-slate-gray"><span class="mt-[0.5em] block h-px w-3 shrink-0 bg-primary/40"></span>Straight talk: what's real, what's noise, what to do on Monday morning.</li>
+        </ul>
+      </div>
+      <!-- Luxinnovation -->
+      <div class="bg-surface-light rounded-[24px] p-8 md:p-10 shadow-sm hover:shadow-md transition-shadow mt-4">
+        <div class="flex flex-col md:flex-row md:items-baseline md:justify-between gap-2 mb-4">
+          <div>
+            <span class="font-sans text-xs tabular-nums tracking-wider text-slate-gray">2021 — 2024</span>
+            <h3 class="font-headline-md mt-1">Luxinnovation</h3>
+            <p class="text-slate-gray">Principal Digital Advisor</p>
+          </div>
+        </div>
+        <p class="font-body-md italic text-on-surface-variant mb-4">National innovation agency of Luxembourg — guiding companies through digital transformation.</p>
+        <ul class="space-y-2">
+          <li class="flex gap-3 text-slate-gray"><span class="mt-[0.5em] block h-px w-3 shrink-0 bg-slate-gray/40"></span>Led digital maturity assessments and transformation roadmaps for Luxembourgish SMEs and mid-caps.</li>
+          <li class="flex gap-3 text-slate-gray"><span class="mt-[0.5em] block h-px w-3 shrink-0 bg-slate-gray/40"></span>Built and delivered advisory programs bridging strategy, technology, and public funding.</li>
+          <li class="flex gap-3 text-slate-gray"><span class="mt-[0.5em] block h-px w-3 shrink-0 bg-slate-gray/40"></span>Represented the agency in national and European initiatives on AI and data.</li>
+        </ul>
+      </div>
+      <!-- InTech / Groupe POST -->
+      <div class="bg-surface-light rounded-[24px] p-8 md:p-10 shadow-sm hover:shadow-md transition-shadow mt-4">
+        <div class="flex flex-col md:flex-row md:items-baseline md:justify-between gap-2 mb-4">
+          <div>
+            <span class="font-sans text-xs tabular-nums tracking-wider text-slate-gray">2008 — 2021</span>
+            <h3 class="font-headline-md mt-1">InTech / Groupe POST</h3>
+            <p class="text-slate-gray">Developer → Presales → Innovation Manager</p>
+          </div>
+        </div>
+        <p class="font-body-md italic text-on-surface-variant mb-4">Thirteen years across the stack — from writing code to shaping how a company thinks about what's next.</p>
+        <ul class="space-y-2">
+          <li class="flex gap-3 text-slate-gray"><span class="mt-[0.5em] block h-px w-3 shrink-0 bg-slate-gray/40"></span>Started as a developer building enterprise software; grew into presales engineering for complex integrations.</li>
+          <li class="flex gap-3 text-slate-gray"><span class="mt-[0.5em] block h-px w-3 shrink-0 bg-slate-gray/40"></span>Moved into innovation leadership: scouting emerging tech, running proofs of concept, translating between R&D and clients.</li>
+          <li class="flex gap-3 text-slate-gray"><span class="mt-[0.5em] block h-px w-3 shrink-0 bg-slate-gray/40"></span>Learned the craft of turning technical possibility into business decisions.</li>
+        </ul>
+      </div>
+      <!-- Lux4Good -->
+      <div class="bg-surface-light rounded-[24px] p-8 md:p-10 shadow-sm hover:shadow-md transition-shadow mt-4">
+        <div class="flex flex-col md:flex-row md:items-baseline md:justify-between gap-2 mb-4">
+          <div>
+            <span class="font-sans text-xs tabular-nums tracking-wider text-slate-gray">2015 — Present</span>
+            <h3 class="font-headline-md mt-1">Lux4Good</h3>
+            <p class="text-slate-gray">Founder</p>
+          </div>
+        </div>
+        <p class="font-body-md italic text-on-surface-variant mb-4">A community connecting Luxembourg's tech talent with non-profits that need it.</p>
+        <ul class="space-y-2">
+          <li class="flex gap-3 text-slate-gray"><span class="mt-[0.5em] block h-px w-3 shrink-0 bg-slate-gray/40"></span>Founded and grew a volunteer network pairing developers, designers, and strategists with associations.</li>
+          <li class="flex gap-3 text-slate-gray"><span class="mt-[0.5em] block h-px w-3 shrink-0 bg-slate-gray/40"></span>Delivered pro-bono digital projects across social, environmental, and cultural causes.</li>
+          <li class="flex gap-3 text-slate-gray"><span class="mt-[0.5em] block h-px w-3 shrink-0 bg-slate-gray/40"></span>Proof that good technology work belongs everywhere, not only where budgets are largest.</li>
+        </ul>
+      </div>
+    </div>
+    <div class="mt-12 text-center">
+      <a href="/cv-nicolas-sanitas.pdf" class="inline-flex items-center border border-primary px-8 py-4 font-sans text-sm uppercase tracking-[0.2em] transition-colors hover:bg-primary hover:text-white rounded-full">Download my CV (PDF)</a>
+    </div>
+  </div>
+</section>
+
+<!-- Approach / How It Works -->
+<section class="py-24 bg-surface-container-high/20" id="approach">
+  <div class="px-margin-mobile md:px-margin-desktop max-w-container-max mx-auto">
+    <div class="text-center mb-16 space-y-4">
+      <span class="text-primary font-bold tracking-widest uppercase text-xs">Methodology</span>
+      <h2 class="font-headline-lg mb-4">My Approach</h2>
+      <p class="text-slate-gray max-w-xl mx-auto">Straight talk: what's real, what's noise, what to do on Monday morning.</p>
+    </div>
+    <div class="grid grid-cols-1 md:grid-cols-3 gap-12 relative">
+      <div class="hidden md:block absolute top-1/2 left-0 w-full h-0.5 border-t-2 border-dashed border-outline-variant/40 -translate-y-12 -z-10"></div>
+      <div class="flex flex-col items-center text-center space-y-6">
+        <div class="w-20 h-20 rounded-full bg-primary flex items-center justify-center text-on-primary font-display-lg shadow-xl relative">
+          1
+          <div class="absolute -top-2 -right-2 w-8 h-8 rounded-full bg-surface-light border-4 border-primary-fixed shadow-sm"></div>
+        </div>
+        <h3 class="font-headline-md">Diagnose</h3>
+        <p class="text-slate-gray">Understand where you are — assess digital maturity, identify opportunities, and separate signal from noise.</p>
+      </div>
+      <div class="flex flex-col items-center text-center space-y-6">
+        <div class="w-20 h-20 rounded-full bg-primary flex items-center justify-center text-on-primary font-display-lg shadow-xl relative">
+          2
+          <div class="absolute -top-2 -right-2 w-8 h-8 rounded-full bg-surface-light border-4 border-primary-fixed shadow-sm"></div>
+        </div>
+        <h3 class="font-headline-md">Decide</h3>
+        <p class="text-slate-gray">Make concrete, operational decisions — grounded in technical reality and business context.</p>
+      </div>
+      <div class="flex flex-col items-center text-center space-y-6">
+        <div class="w-20 h-20 rounded-full bg-primary flex items-center justify-center text-on-primary font-display-lg shadow-xl relative">
+          3
+          <div class="absolute -top-2 -right-2 w-8 h-8 rounded-full bg-surface-light border-4 border-primary-fixed shadow-sm"></div>
+        </div>
+        <h3 class="font-headline-md">Deliver</h3>
+        <p class="text-slate-gray">Execute with purpose — training, advisory, and transformation that builds lasting capability.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Foundations / Core Skills -->
+<section class="py-24 bg-surface-container-low/50">
+  <div class="px-margin-mobile md:px-margin-desktop max-w-container-max mx-auto">
+    <div class="max-w-4xl mx-auto">
+      <div class="bg-surface-light rounded-[32px] p-10 md:p-16 shadow-sm border border-outline-variant/10">
+        <div class="flex flex-col md:flex-row gap-10 items-start">
+          <div class="flex-shrink-0">
+            <div class="w-24 h-24 rounded-full bg-primary-fixed flex items-center justify-center">
+              <span class="material-symbols-outlined text-primary text-5xl">auto_stories</span>
+            </div>
+          </div>
+          <div class="space-y-6">
+            <h2 class="font-headline-lg">Foundations</h2>
+            <p class="font-body-md italic text-on-surface-variant">Engineering-trained, self-taught in the parts that matter, sharpened by two decades of shipping.</p>
+            <p class="text-slate-gray">Software engineering background with continuous learning across AI, data, and product. Fluent in French and English; comfortable moving between technical depth and executive conversations.</p>
+            <div class="flex flex-wrap gap-3 pt-2">
+              <span class="px-4 py-2 bg-primary-fixed text-primary rounded-full font-label-sm">Strategic Advisory</span>
+              <span class="px-4 py-2 bg-primary-fixed text-primary rounded-full font-label-sm">AI Literacy</span>
+              <span class="px-4 py-2 bg-primary-fixed text-primary rounded-full font-label-sm">Digital Transformation</span>
+              <span class="px-4 py-2 bg-primary-fixed text-primary rounded-full font-label-sm">Training Design</span>
+              <span class="px-4 py-2 bg-primary-fixed text-primary rounded-full font-label-sm">Public Speaking</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Testimonials (kept from CareerCraft, adapted) -->
+<section class="py-24 overflow-hidden">
+  <div class="px-margin-mobile md:px-margin-desktop max-w-container-max mx-auto">
+    <div class="grid grid-cols-1 lg:grid-cols-2 gap-gutter items-center">
+      <div class="space-y-8">
+        <h2 class="font-headline-lg">What Clients Say</h2>
+        <div class="p-8 bg-surface-container rounded-[24px] border border-outline-variant/20 relative">
+          <span class="material-symbols-outlined text-6xl text-primary/10 absolute top-4 right-8">format_quote</span>
+          <p class="font-body-lg text-on-surface mb-6 italic">
+            "Nicolas has a rare ability to translate complex AI concepts into clear, actionable strategies. Our leadership team finally understands what we need to do — and why it matters."
+          </p>
+          <div class="flex items-center gap-4">
+            <div class="w-12 h-12 rounded-full bg-primary/20 flex items-center justify-center">
+              <span class="material-symbols-outlined text-primary">person</span>
+            </div>
+            <div>
+              <p class="font-label-md text-on-background">CEO</p>
+              <p class="text-xs text-slate-gray uppercase tracking-wider">Luxembourg-based Tech Company</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="hidden lg:block relative">
+        <div class="w-full h-[400px] bg-surface-variant rounded-[40px] overflow-hidden shadow-2xl flex items-center justify-center">
+          <div class="text-center p-12">
+            <span class="material-symbols-outlined text-8xl text-primary/20">auto_awesome</span>
+            <p class="mt-4 font-headline-md text-on-surface-variant">Trusted by organizations<br/>across Europe</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- FAQs -->
+<section class="py-24 bg-surface-container-low/50" id="faq">
+  <div class="px-margin-mobile md:px-margin-desktop max-w-3xl mx-auto">
+    <h2 class="font-headline-lg text-center mb-12">Frequently Asked Questions</h2>
+    <div class="space-y-4">
+      <details class="group bg-surface-light p-6 rounded-2xl border border-outline-variant/20 cursor-pointer" open="">
+        <summary class="flex items-center justify-between font-headline-md list-none">
+          What exactly do you help organizations with?
+          <span class="material-symbols-outlined group-open:rotate-180 transition-transform">expand_more</span>
+        </summary>
+        <p class="pt-4 text-slate-gray leading-relaxed">
+          I help leaders make sense of AI — beyond the hype, inside the operations. This includes strategic advisory for AI adoption, custom training programs that build genuine internal capability, and digital transformation grounded in practical technical and business leadership.
+        </p>
+      </details>
+      <details class="group bg-surface-light p-6 rounded-2xl border border-outline-variant/20 cursor-pointer">
+        <summary class="flex items-center justify-between font-headline-md list-none">
+          How is your approach different from other consultants?
+          <span class="material-symbols-outlined group-open:rotate-180 transition-transform">expand_more</span>
+        </summary>
+        <p class="pt-4 text-slate-gray leading-relaxed">
+          Twenty years across the stack — from writing code to shaping innovation strategy — means I speak both technical depth and executive language. No buzzwords, no fluff: straight talk about what's real, what's noise, and what to do on Monday morning.
+        </p>
+      </details>
+      <details class="group bg-surface-light p-6 rounded-2xl border border-outline-variant/20 cursor-pointer">
+        <summary class="flex items-center justify-between font-headline-md list-none">
+          What languages do you work in?
+          <span class="material-symbols-outlined group-open:rotate-180 transition-transform">expand_more</span>
+        </summary>
+        <p class="pt-4 text-slate-gray leading-relaxed">
+          I'm fluent in French and English, and comfortable working across both. I've delivered advisory and training in both languages for organizations across Luxembourg, Europe, and beyond.
+        </p>
+      </details>
+      <details class="group bg-surface-light p-6 rounded-2xl border border-outline-variant/20 cursor-pointer">
+        <summary class="flex items-center justify-between font-headline-md list-none">
+          How do I book a consultation?
+          <span class="material-symbols-outlined group-open:rotate-180 transition-transform">expand_more</span>
+        </summary>
+        <p class="pt-4 text-slate-gray leading-relaxed">
+          Scroll down to the booking section below, pick a time slot that works for you, and I'll be in touch. First consultations are a no-obligation conversation to understand your needs and see if we're a good fit.
+        </p>
+      </details>
+    </div>
+  </div>
+</section>
+
+<!-- CTA + Booking Section -->
+<section class="py-24" id="booking">
+  <div class="px-margin-mobile md:px-margin-desktop max-w-container-max mx-auto">
+    <div class="bg-primary rounded-[48px] p-12 md:p-24 text-center space-y-8 relative overflow-hidden">
+      <div class="absolute top-0 left-0 w-full h-full opacity-10 pointer-events-none">
+        <div class="absolute top-0 right-0 w-96 h-96 bg-white rounded-full blur-[100px] -translate-y-1/2 translate-x-1/2"></div>
+        <div class="absolute bottom-0 left-0 w-96 h-96 bg-white rounded-full blur-[100px] translate-y-1/2 -translate-x-1/2"></div>
+      </div>
+      <h2 class="font-display-lg text-white max-w-3xl mx-auto">Ready to get started?</h2>
+      <p class="font-body-lg text-primary-fixed max-w-2xl mx-auto">Book a free 20-minute consultation. No obligation — just straight talk about what's possible.</p>
+      <div class="pt-4">
+        <a href="https://cal.com/shi-hem-ya3q69" target="_blank" rel="noopener noreferrer" class="inline-flex items-center gap-2 bg-white text-primary px-10 py-4 rounded-full font-headline-md shadow-xl hover:bg-primary-fixed transition-colors active:scale-95">
+          <span class="material-symbols-outlined">calendar_month</span>
+          Book an Appointment
+        </a>
+      </div>
+    </div>
+    <!-- Cal.com Embed -->
+    <div class="mt-8 max-w-3xl mx-auto">
+      <div class="bg-surface-light rounded-[32px] shadow-xl overflow-hidden border border-outline-variant/10">
+        <div class="p-6 border-b border-outline-variant/10">
+          <h3 class="font-headline-md text-center">Select a Time Slot</h3>
+          <p class="text-slate-gray text-center text-sm mt-1">Pick a date and time that works for you</p>
+        </div>
+        <div class="cal-embed-wrapper">
+          <!-- Cal.com inline embed -->
+          <iframe
+            src="https://cal.com/shi-hem-ya3q69?embed&theme=light"
+            width="100%"
+            height="650"
+            frameborder="0"
+            style="border: none; min-height: 650px;"
+            loading="lazy"
+            title="Book a consultation with Nicolas Sanitas"
+          ></iframe>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+</main>
+
+<!-- Footer -->
+<footer class="w-full pt-16 pb-24 bg-surface-container-highest border-t border-outline-variant/20">
+  <div class="grid grid-cols-1 md:grid-cols-4 gap-gutter px-margin-mobile md:px-margin-desktop max-w-container-max mx-auto">
+    <div class="space-y-6">
+      <div class="flex items-center gap-2">
+        <span class="font-display-lg text-primary text-2xl tracking-tight italic">ns.</span>
+      </div>
+      <p class="text-slate-gray font-body-md">Nicolas Sanitas — built quietly in Luxembourg.</p>
+    </div>
+    <div>
+      <h4 class="font-label-md text-on-background uppercase mb-6 tracking-widest">Services</h4>
+      <ul class="space-y-4">
+        <li><a class="text-slate-gray hover:text-primary transition-colors" href="#services">AI Advisory</a></li>
+        <li><a class="text-slate-gray hover:text-primary transition-colors" href="#services">Training Programs</a></li>
+        <li><a class="text-slate-gray hover:text-primary transition-colors" href="#services">Digital Transformation</a></li>
+        <li><a class="text-slate-gray hover:text-primary transition-colors" href="#approach">Consulting Approach</a></li>
+      </ul>
+    </div>
+    <div>
+      <h4 class="font-label-md text-on-background uppercase mb-6 tracking-widest">Connect</h4>
+      <ul class="space-y-4">
+        <li><a class="text-slate-gray hover:text-primary transition-colors" href="https://www.linkedin.com/in/nicolassanitas/" target="_blank" rel="noopener noreferrer">LinkedIn</a></li>
+        <li><a class="text-slate-gray hover:text-primary transition-colors" href="https://wa.me/33687388992" target="_blank" rel="noopener noreferrer">WhatsApp</a></li>
+        <li><a class="text-slate-gray hover:text-primary transition-colors" href="#booking">Book Consultation</a></li>
+      </ul>
+    </div>
+    <div>
+      <h4 class="font-label-md text-on-background uppercase mb-6 tracking-widest">Support</h4>
+      <ul class="space-y-4">
+        <li><a class="text-slate-gray hover:text-primary transition-colors" href="#faq">FAQ</a></li>
+        <li><a class="text-slate-gray hover:text-primary transition-colors" href="/cv-nicolas-sanitas.pdf">Download CV</a></li>
+      </ul>
+    </div>
+  </div>
+  <div class="mt-16 px-margin-mobile md:px-margin-desktop max-w-container-max mx-auto pt-8 border-t border-outline-variant/20 flex flex-col md:flex-row justify-between items-center gap-4">
+    <p class="text-slate-gray text-label-sm">© 2026 Nicolas Sanitas. All rights reserved.</p>
+    <p class="text-slate-gray/50 text-label-sm">Digital transformation, training, and straight talk about AI.</p>
+  </div>
+</footer>
+
+<!-- Mobile Bottom Nav -->
+<nav class="md:hidden fixed bottom-0 w-full z-50 rounded-t-xl bg-surface-light shadow-[0_-4px_12px_rgba(0,0,0,0.05)] border-t border-outline-variant/10 flex justify-around items-center h-20 px-2">
+  <a class="flex flex-col items-center justify-center text-primary bg-primary-fixed-dim/20 rounded-xl px-3 py-1 active:scale-90 transition-all" href="#services">
+    <span class="material-symbols-outlined">psychology</span>
+    <span class="font-label-sm text-label-sm">Services</span>
+  </a>
+  <a class="flex flex-col items-center justify-center text-slate-gray px-3 py-1 hover:text-primary active:scale-90 transition-all" href="#career">
+    <span class="material-symbols-outlined">work_history</span>
+    <span class="font-label-sm text-label-sm">Career</span>
+  </a>
+  <a class="flex flex-col items-center justify-center text-slate-gray px-3 py-1 hover:text-primary active:scale-90 transition-all" href="#booking">
+    <span class="material-symbols-outlined">calendar_month</span>
+    <span class="font-label-sm text-label-sm">Book</span>
+  </a>
+  <a class="flex flex-col items-center justify-center text-slate-gray px-3 py-1 hover:text-primary active:scale-90 transition-all" href="#faq">
+    <span class="material-symbols-outlined">help_outline</span>
+    <span class="font-label-sm text-label-sm">FAQ</span>
+  </a>
+</nav>
+
+<script>
+  // Mobile menu toggle
+  document.getElementById('mobile-menu-btn')?.addEventListener('click', () => {
+    const menu = document.getElementById('mobile-menu');
+    menu.classList.toggle('hidden');
+  });
+  // Intersection observer for scroll animations
+  const observerOptions = { threshold: 0.1 };
+  const observer = new IntersectionObserver((entries) => {
+    entries.forEach(entry => {
+      if (entry.isIntersecting) {
+        entry.target.classList.add('opacity-100', 'translate-y-0');
+        entry.target.classList.remove('opacity-0', 'translate-y-10');
+      }
+    });
+  }, observerOptions);
+  document.querySelectorAll('section > div').forEach(el => {
+    el.classList.add('transition-all', 'duration-1000', 'opacity-0', 'translate-y-10');
+    observer.observe(el);
+  });
+</script>
+
+</body>
+</html>
